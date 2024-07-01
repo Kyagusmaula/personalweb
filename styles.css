@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-family: 'Syne', Verdana;
+}
+
+#home, header {
+  background-color: 	#ffd700;
+  color: #343a40;
+}
+
+.photo {
+  align-content: center;
+  
+}
+.photo img {
+  margin: auto 100px auto auto;
+  width: 200px;
+  height: 333px;
+  padding-top: -600px;
+  position: relative;
+  align-content: center;
+  text-align: center;
+} 
+.photo h1 {
+  font-size: 100px;
+  margin-right:200px;
+  color:#343a40;
+  margin-left:0;
+}
+.photo hr{
+  border: 10px solid black;
+  border-radius: 5px;
+}
+
+.card-body {
+  background-color: 	#ffd700;
+}
+
+#about {
+  color:white;
+}
+
+@media (max-width: 768px)
+{
+  .container h1 {
+font-size: 35px;
+  margin: 10px;
+  }
+.photo {
+text-align: center;
+}
+.photo img {
+  margin:0;
+}
+}
